@@ -5,40 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
   </head>
+
   <body>
     <header>
+      <div class="conteiner">
+        <div class="header__container conteiner_without_cover">
+          <div class="header__menu">
+            <ul
+              type="circle"
+              class="header__menu-items header__links header__menu-dots"
+            >
+              <li
+                class="header__links-list header__menu-list header__links-list_no-bullit"
+              >
+                <span>главная</span>
+              </li>
+              <li class="header__links-list header__menu-list">
+                <a href="#"> посмотреть лоты</a>
+              </li>
+              <li class="header__links-list header__menu-list">
+                <a href="#">об аукционе</a>
+              </li>
+            </ul>
+          </div>
 
-      <div class="header__container">
-        <div class="header__menu">
-          <ul type="circle" class="header__menu-items header__links header_flex">
-            <li class="header__links-list header__menu-links header__links-list_no-bullit"><span>главная</span></li>
-            <li class="header__links-list header__menu-links "><a href="#"> посмотреть лоты</a></li>
-            <li class="header__links-list header__menu-links"><a href="#">об аукционе</a></li>
-          </ul>
+          <div class="header__logo">
+            <img
+              class="header__logo-img"
+              src="../ono-tebe-nado/images/logo-black.svg"
+            />
+          </div>
+
+          <div class="header__contacts">
+            <ul class="header__links">
+              <li
+                class="header__links-list header__links-list_no-bullit header__contacts-otstup"
+              >
+                <a href="tel:+99995555555">+9 999 555 5555</a>
+              </li>
+              <li
+                class="header__links-list header__links-list_no-bullit header__contacts-otstup"
+              >
+                <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+              </li>
+              <li
+                class="header__links-list header__links-list_no-bullit header__contacts-otstup"
+              >
+                <span
+                  >наб. Принсенграхт 263-265,<br />
+                  Амстердам</span
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <div class="header__logo"><img class="header__logo-img" src="../ono-tebe-nado/images/logo-black.svg"></div>
-
-        <div class="header__contacts">
-          <ul class="header__links">
-
-            <li class="header__links-list header__links-list_no-bullit header__contacts-otstup"><a href="tel:+99995555555">+9 999 555 5555</a></li>
-            <li class="header__links-list header__links-list_no-bullit header__contacts-otstup"><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-            <li class="header__links-list header__links-list_no-bullit header__contacts-otstup"><span>наб. Принсенграхт 263-265,<br> Амстердам</span></li>
-          </ul>
-        </div>
-    </div>
+      </div>
     </header>
 
     <main>
-      <section class="cover"></section>
-      <section class="lots"></section>
-      <section class="about"></section>
+
+      <div class="markup__cover">
+        <section class="cover">
+          <div class="overlay">
+          <div class="cover__conteiner conteiner">
+            <div class="cover__title">
+              <h1 class="cover_heding-general cover_heding-ono">оно</h1>
+              <h1 class="cover_heding-general cover_heding-tebe">тебе</h1>
+              <h1 class="cover_heding-general cover_heding-nado">надо</h1>
+            </div>
+            <div class="conteiner_cover_footer conteiner">
+              <span class="cover_subtitle">
+                Аукцион    вещей,    в    которые    никто    не     верил
+              </span>
+              <span class="cover_button">сделать ставку</span>
+          </div>
+          
+          </div>
+        </div>
+        </section>
+
+        <div class="conteiner">
+          <section class="lots">
+            <h2 class="logs__heading">лоты</h2>
+            <div class="lots__card-list">
+              <ul class="lots__card-list-item">
+
+                <li class="card_type_film card">
+                  <a class =" card-link">
+                    Фильм режиссёра, который  бросил киношколу
+                  </a>
+                  <div class="card__text">
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                  </div>
+                </li>
+
+                <li class="card_type_book card">
+                  <a class =" card-link">
+                    Книга, где описан один скучный день из жизни рекламного агента
+                  </a>
+                  <div class="card__text">
+                    Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                  </div>
+                </li>
+
+                <li class="card_type_picture card">
+                  <a class =" card-link">
+                    Картина, которую повторит даже 5-летний сын маминой подруги
+                  </a>
+                  <div class="card__text">
+                    Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+            <a class="lots__look-more-link">посмотреть больше</a>
+          </section>
+          <section class="about"></section>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+
+
+    <footer class="conteiner_without_cover conteiner__footer">
+      <div class="conteiner"></div>
+    </footer>
   </body>
 </html>
