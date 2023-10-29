@@ -6,7 +6,7 @@
 header {
   background-color: white;
   height: auto;
-  margin: 58px auto 58px auto;
+  margin: 57px auto 59px auto;
   font-size: 18px;
   font-weight: 400;
 }
@@ -35,6 +35,10 @@ header {
   list-style-type: none;
 }
 
+.main_without_under-line {
+  text-decoration: none;
+}
+
 .header__logo {
   align-self: center;
   margin: auto;
@@ -52,12 +56,12 @@ header {
 }
 
 .header__contacts-otstup {
-  margin: 3px 0;
+  margin: 2px 0;
   line-height: 22px;
 }
 
 .header__links {
-  line-height: 20px;
+  line-height: 21px;
 }
 
 .markup__cover {
@@ -181,7 +185,9 @@ letter-spacing: 0;
   width:633px; 
   height: auto;
   display: flex;
-  justify-content: space-between;
+  word-spacing: 17px;
+  
+  
   align-items: center;
   
 }
@@ -380,11 +386,13 @@ letter-spacing: 0;
   justify-content: start;
   word-spacing: -1px;
   text-underline-offset: 4px;
+  line-height: 10px;
 }
 
 .footer__menu {
   justify-content: center;
   word-spacing: -1px;
+  
 }
 
 .footer__menu-list {
@@ -392,7 +400,7 @@ letter-spacing: 0;
   flex-direction: column;
   align-items: center;
   list-style-type: none;
-  line-height: 22px;
+  
 }
 
 .footer__menu-item {
