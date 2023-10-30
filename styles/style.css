@@ -6,7 +6,7 @@
 header {
   background-color: white;
   height: auto;
-  margin: 57px auto 59px auto;
+  margin: 55px auto 55px auto;
   font-size: 18px;
   font-weight: 400;
 }
@@ -19,6 +19,7 @@ header {
 }
 
 .header__menu {
+  margin-top: 1px;
   align-self: center;
   margin-right: auto;
 }
@@ -29,6 +30,12 @@ header {
 
 .header__menu-list {
   margin-right: 32px;
+  
+}
+
+.header__menu__link {
+
+letter-spacing: 0.1px;
 }
 
 .header__links-list_no-bullit {
@@ -45,8 +52,8 @@ header {
 }
 
 .header__logo-img {
-  height: 174px;
-  width: 134px;
+  height: 179px;
+  width: 137px;
 }
 
 .header__contacts {
@@ -56,7 +63,8 @@ header {
 }
 
 .header__contacts-otstup {
-  margin: 2px 0;
+  margin-top: -1px;
+  margin-bottom: 3px;
   line-height: 22px;
 }
 
@@ -246,6 +254,16 @@ letter-spacing: 0;
   text-transform: uppercase;
   position: relative;
   z-index: 2;
+  /* text-decoration: none; */
+  line-height: 26px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  /* border-bottom: 1px solid white; */
+}
+
+.card__title__underline {
+  /* border-bottom: 1px solid white; */
+  padding-bottom: -1px;
 }
 
 .card__text {
@@ -254,10 +272,11 @@ letter-spacing: 0;
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   position: relative;
   z-index: 2;
-  /* line-height: 120%; 24px */
+  line-height: 120%;
+  /* word-spacing: 1px; */
 }
 
 .card_type_film {
@@ -338,13 +357,13 @@ letter-spacing: 0;
   border: 1px solid black;
   background-color: #000;
   border-radius: 50%;
-  padding: 63px 46px;
-  margin: -3px 95px 0px 95px;
+  padding: 64px 46px;
+  margin: -5px 95px 0px 95px;
 }
 
 .about__logo-item {
-  width: 148px;
-  height: 114px;
+  width: 146px;
+  height: 112px;
   background-image: url(../images/logo-white.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -375,7 +394,7 @@ letter-spacing: 0;
 }
 
 .conteiner__footer {
-  margin-top: 176px;
+  margin-top: 178.5px;
   margin-bottom: 90px;
   display: flex;
   justify-content: space-between;
@@ -409,7 +428,7 @@ letter-spacing: 0;
 }
 
 .footer__social {
-  
+  margin-top: -1.5px;  
   display: flex;
   width: 240px;
   justify-content: space-between;
