@@ -5,24 +5,24 @@
 }
 
 header {
-  background-color: white;
-  height: auto;
-  margin: 55px auto 55px auto;
   font-size: 18px;
   font-weight: 400;
+  margin: 55px auto 55px auto;
+  height: auto;
+  background-color: white;
 }
 
 .header__container {
-  height: auto;
+  text-underline-offset: 4px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-underline-offset: 4px;
+  height: auto;
 }
 
 .header__menu {
   margin-top: 1px;
-  align-self: center;
   margin-right: auto;
+  align-self: center;
 }
 
 .header__menu-dots {
@@ -30,8 +30,8 @@ header {
 }
 
 .header__menu-items {
-  line-height: 21px;
   list-style-type: circle;
+  line-height: 21px;
 }
 
 .header__menu-list {
@@ -51,8 +51,8 @@ header {
 }
 
 .header__logo {
-  align-self: center;
   margin: auto;
+  align-self: center;
 }
 
 .header__logo-img {
@@ -62,38 +62,38 @@ header {
 
 .header__contacts {
   margin: 7px 0;
-  align-self: center;
   margin-left: auto;
+  align-self: center;
 }
 
 .header__contacts-otstup {
+  line-height: 22px;
   margin-top: -1px;
   margin-bottom: 3px;
-  line-height: 22px;
 }
 
 .markup__cover {
-  width: 1440px;
   margin: 0px auto;
+  width: 1440px;
 }
 
 .cover {
+  position: relative;
   height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  position: relative;
 }
 
 .overlay {
-  background-color: rgb(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.6);
   top: 0;
   left: 0;
   z-index: 0;
-  position: absolute;
 }
 
 .cover__conteiner {
@@ -105,22 +105,22 @@ header {
 }
 
 .cover__title {
-  padding: 165px 0px 0px 0px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 100px);
   grid-template-areas:
-    " ono . ."
-    ". tebe ."
-    ". . nado";
+  " ono . ."
+  ". tebe ."
+  ". . nado";
   gap: 26px;
+  padding: 165px 0px 0px 0px;
 }
 
 /* доделать расстояние между буквами и расстояние до heading */
 
 .cover_heding-ono {
-  display: flex;
   width: 100%;
+  display: flex;
   grid-area: ono;
   justify-content: flex-start;
 }
@@ -143,7 +143,6 @@ header {
   grid-area: nado;
   justify-content: flex-end;
   align-items: center;
-  /* letter-spacing: 0px; */
 }
 
 .cover_heding-nado-n {
@@ -195,8 +194,8 @@ header {
 
 .cover_button {
   text-decoration: none;
-  border: 1px solid white;
   margin-top: 3px;
+  border: 1px solid white;
   padding: 11px 32px 11px 32px;
 }
 
@@ -209,8 +208,8 @@ header {
 
 .lots__card-list-item {
   display: flex;
-  justify-content: space-between;
   position: relative;
+  justify-content: space-between;
   z-index: -1;
 }
 
@@ -252,11 +251,11 @@ header {
 .card_type_film {
   width: 100%;
   height: 100%;
+  position: absolute;
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -269,11 +268,11 @@ header {
 .card_type_book {
   width: 100%;
   height: 100%;
+  position: absolute;
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -286,11 +285,11 @@ header {
 .card_type_picture {
   width: 100%;
   height: 100%;
+  position: absolute;
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -325,13 +324,13 @@ header {
 }
 
 .about__logo {
-  grid-area: logo;
+  margin: -4px 95px 0px 95px;
   width: 240px;
   height: 240px;
+  grid-area: logo;
   border: 1px solid black;
   background-color: #000;
   border-radius: 50%;
-  margin: -4px 95px 0px 95px;
 }
 
 .about__logo-item {
@@ -349,8 +348,8 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 1.5px;
-  grid-area: title;
   display: flex;
+  grid-area: title;
   align-items: center;
 }
 
@@ -390,10 +389,10 @@ header {
 }
 
 .footer__menu-list {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style-type: none;
 }
 
 .footer__menu-item {
