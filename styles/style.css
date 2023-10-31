@@ -26,6 +26,12 @@ header {
 
 .header__menu-dots {
   display: flex;
+  
+}
+
+.header__menu-items {
+  line-height: 21px; 
+  list-style-type: circle; 
 }
 
 .header__menu-list {
@@ -66,9 +72,7 @@ header {
   line-height: 22px;
 }
 
-.header__links {
-  line-height: 21px;
-}
+
 
 .markup__cover {
   width: 1440px;
