@@ -26,12 +26,11 @@ header {
 
 .header__menu-dots {
   display: flex;
-  
 }
 
 .header__menu-items {
-  line-height: 21px; 
-  list-style-type: circle; 
+  line-height: 21px;
+  list-style-type: circle;
 }
 
 .header__menu-list {
@@ -71,8 +70,6 @@ header {
   margin-bottom: 3px;
   line-height: 22px;
 }
-
-
 
 .markup__cover {
   width: 1440px;
@@ -256,8 +253,6 @@ header {
   /* border-bottom: 1px solid white; */
 }
 
-
-
 .card__text {
   /* align-items: end; */
   color: #fff;
@@ -325,7 +320,7 @@ header {
   margin-left: 40px;
 }
 
-.lots__look-more-link-text {  
+.lots__look-more-link-text {
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -357,7 +352,7 @@ header {
   height: 240px;
   border: 1px solid black;
   background-color: #000;
-  border-radius: 50%;  
+  border-radius: 50%;
   margin: -4px 95px 0px 95px;
 }
 
