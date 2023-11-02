@@ -6,13 +6,12 @@
 .header {
   font-size: 18px;
   font-weight: 400;
-  margin: 56px 0px 57px 0px;
+  margin: 56px auto 57px auto;
   height: auto;
   background-color: white;
   text-underline-offset: 4px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: auto;
   justify-content: center;
 }
 
@@ -114,6 +113,7 @@
 }
 
 .cover_heding-ono {
+  margin-left: 50px;
   width: 100%;
 }
 
@@ -134,7 +134,7 @@
 .cover_heding-nado {
   width: 100%;
   text-align: end;
-  padding: 5px 0px 0px 26px;
+  padding: 5px 50px 0px 26px;
 }
 
 .cover_heding-nado-n {
