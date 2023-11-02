@@ -106,6 +106,7 @@
 
 /* доделать расстояние между буквами и расстояние до heading */
 .cover_heding-general {
+  display: inline-block;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 30px;
